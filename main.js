@@ -1414,7 +1414,7 @@ left.addEventListener('touchstart', function() {
 //=====
 left.addEventListener('touchend', function() {
   vehicle.setSteeringValue(maxSteerVal, 2);
-  vehicle.setSteeringValue(maxSteerVal1, 1);
+  vehicle.setSteeringValue(maxSteerVal, 1);
 
 });
 
