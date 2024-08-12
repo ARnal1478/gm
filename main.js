@@ -36,7 +36,7 @@ const cannonDebugRenderer = new CannonDebugRenderer(scene, world);
 **/
 const loader = new GLTFLoader();
 let _map;
-loader.load('./map/dio.glb', function(glb) {
+loader.load('./dio.glb', function(glb) {
   _map = glb.scene;
   _map.position.set(0, 1, 0);
   _map.scale.set(30,15,30);
