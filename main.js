@@ -1452,7 +1452,7 @@ function animate(){
   requestAnimationFrame(animate);
   camera.lookAt(cB.position);
   world.fixedStep();
- cannonDebugRenderer.update();
+ //cannonDebugRenderer.update();
 
 
 cB.position.copy(carBody.position);
