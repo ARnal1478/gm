@@ -1277,7 +1277,7 @@ scene.add(cB);
 
 let carBody   ;
   carBody= new CANNON.Body({
-   mass:10,
+   mass:3,
    shape: new CANNON.Box(new CANNON.Vec3(8,2, 2)),//4.5
    position: new CANNON.Vec3(-880,40, 10)
  });
