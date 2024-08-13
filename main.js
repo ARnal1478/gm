@@ -20,7 +20,6 @@ var light = new THREE.DirectionalLight(0xffffff, 2.0, 1500);
 scene.add(light);
 
 //Point light => shading the front face 
-
 renderer.setClearColor('darkcyan');
 //__________________________________
 const world = new CANNON.World({
