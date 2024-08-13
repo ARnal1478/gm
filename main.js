@@ -944,7 +944,14 @@ _CDtree1.scale.set(60,50, 60);
   scene.add(_CDtree1);
 });
 
-
+let _CDtree2;
+loader.load('./CD MAP tree2.glb', function(glb) {
+  _CDtree2 = glb.scene;
+_CDtree2.position.set(-1000,0.1,40);
+_CDtree2.scale.set(60,50, 60);
+ _CDtree2.rotation.y = Math.PI / 1;
+  scene.add(_CDtree2);
+});
 const _CDplace = new CANNON.Body({
   mass: 0,
   shape: new CANNON.Box(new CANNON.Vec3(350, 1, 360)),
