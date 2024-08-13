@@ -936,7 +936,7 @@ loader.load('./CD MAP Mauntain.glb', function(glb) {
 });
 
 let _CDtree1;
-loader.load('./CD MAP Mauntain.glb', function(glb) {
+loader.load('./CD MAP tree1.glb', function(glb) {
   _CDtree1 = glb.scene;
 _CDtree1.position.set(-1000,0.1,40);
 _CDtree1.scale.set(60,50, 60);
