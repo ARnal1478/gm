@@ -927,7 +927,7 @@ world.addBody(_si90);
 ***/
 
 let _CDmap;
-loader.load('./map/MAUNTAINrOAD.glb', function(glb) {
+loader.load('./CD MAP Mauntain.glb', function(glb) {
   _CDmap = glb.scene;
   _CDmap.position.set(-1000,0.1,40);
   _CDmap.scale.set(60,50, 60);
