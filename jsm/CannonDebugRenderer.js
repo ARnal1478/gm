@@ -17,7 +17,7 @@ export default function CannonDebugRenderer(scene,world, options) {
 
     this._meshes = [];
 
- this._material = new THREE.MeshBasicMaterial({ color: 'white', wireframe: true });
+ this._material = new THREE.MeshBasicMaterial({color:'white', wireframe: true });
     this._sphereGeometry = new THREE.SphereGeometry(1);
     this._boxGeometry = new THREE.BoxGeometry(1, 1, 1);
     
