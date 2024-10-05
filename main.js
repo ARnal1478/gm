@@ -1,20 +1,4 @@
-import *as THREE from '../jsm/three.module.js';
-import {OrbitControls} from '/jsm/OrbitControls.js';
-import * as CANNON from '/jsm/cannon-es.js';
-import CannonDebugRenderer from '/jsm/CannonDebugRenderer.js';
-
-const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 50000);
-const renderer = new THREE.WebGLRenderer();
-renderer.shadowMap.enabled = true;
-renderer.shadowMap.type = THREE.PCFSoftShadowMap;
-
-renderer.setSize(window.innerWidth, window.innerHeight);
-document.body.appendChild(renderer.domElement);
-renderer.setClearColor('gray');
-//===================================
-var light = new THREE.AmbientLight(0xffffff, 0.5);
-scene.add(light);
+const _0x5d0fc6=_0x3c30;(function(_0x3f57ce,_0x3b01bd){const _0x195656=_0x3c30,_0x4c84e2=_0x3f57ce();while(!![]){try{const _0x11991c=parseInt(_0x195656(0x84))/0x1+parseInt(_0x195656(0x89))/0x2*(parseInt(_0x195656(0x7a))/0x3)+parseInt(_0x195656(0x7e))/0x4*(parseInt(_0x195656(0x81))/0x5)+parseInt(_0x195656(0x90))/0x6*(-parseInt(_0x195656(0x82))/0x7)+parseInt(_0x195656(0x85))/0x8+parseInt(_0x195656(0x8e))/0x9*(-parseInt(_0x195656(0x7d))/0xa)+parseInt(_0x195656(0x7c))/0xb*(-parseInt(_0x195656(0x8d))/0xc);if(_0x11991c===_0x3b01bd)break;else _0x4c84e2['push'](_0x4c84e2['shift']());}catch(_0x5e7d85){_0x4c84e2['push'](_0x4c84e2['shift']());}}}(_0x4190,0x82dd3));import*as _0x424e9c from'../jsm/three.module.js';import{OrbitControls}from'/jsm/OrbitControls.js';import*as _0x1e58f0 from'/jsm/cannon-es.js';function _0x3c30(_0x556f68,_0x13fe80){const _0x41900b=_0x4190();return _0x3c30=function(_0x3c30c1,_0x48cb9e){_0x3c30c1=_0x3c30c1-0x7a;let _0x1fec3e=_0x41900b[_0x3c30c1];return _0x1fec3e;},_0x3c30(_0x556f68,_0x13fe80);}import _0x4ec0ed from'/jsm/CannonDebugRenderer.js';function _0x4190(){const _0x4e514a=['642004pqgbJd','10NWmbwq','20FAdwsh','Scene','add','661965YvoDiH','2660245UjYkga','AmbientLight','719629Skirvv','3301288scegmx','innerWidth','PerspectiveCamera','setSize','2pimoMA','gray','domElement','type','276rASzEE','2647755WlmyNZ','innerHeight','6LLhgft','enabled','PCFSoftShadowMap','2275098FGtvxw','shadowMap'];_0x4190=function(){return _0x4e514a;};return _0x4190();}const scene=new _0x424e9c[(_0x5d0fc6(0x7f))](),camera=new _0x424e9c[(_0x5d0fc6(0x87))](0x4b,window[_0x5d0fc6(0x86)]/window[_0x5d0fc6(0x8f)],0.1,0xc350),renderer=new _0x424e9c['WebGLRenderer']();renderer[_0x5d0fc6(0x7b)][_0x5d0fc6(0x91)]=!![],renderer[_0x5d0fc6(0x7b)][_0x5d0fc6(0x8c)]=_0x424e9c[_0x5d0fc6(0x92)],renderer[_0x5d0fc6(0x88)](window['innerWidth'],window['innerHeight']),document['body']['appendChild'](renderer[_0x5d0fc6(0x8b)]),renderer['setClearColor'](_0x5d0fc6(0x8a));var light=new _0x424e9c[(_0x5d0fc6(0x83))](0xffffff,0.5);scene[_0x5d0fc6(0x80)](light);
 
 var light1 = new THREE.PointLight(0xffffff, 0.5);
 scene.add(light1);
