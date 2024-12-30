@@ -1,5 +1,9 @@
 *{
   margin:0;
+
+resize: both;
+overflow: auto;
+
 }
 
 
