@@ -6,7 +6,6 @@
 
 body {
   resize: both;
-overflow: auto;
   -webkit-user-select: none;
   align-items: center;
   justify-content: center;
