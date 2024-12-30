@@ -1,15 +1,12 @@
 *{
   margin:0;
-
-resize: both;
-overflow: auto;
-
 }
 
 
 
 body {
-  margin:0;
+  resize: both;
+overflow: auto;
   -webkit-user-select: none;
   align-items: center;
   justify-content: center;
