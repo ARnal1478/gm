@@ -1029,14 +1029,14 @@ fullscreenIcon.addEventListener('pointerup', () => {
 
 camera.position.set(0,0,100);
 
-//meshCamera.add(camera)
+meshCamera.add(camera)
 renderer.setClearColor("lightcyan");
  const controls = new OrbitControls( camera, renderer.domElement );
-// controls.maxPolarAngle = Math.PI * 0.495;
-// //controls.target.set( 0, 2, 0 );
-// controls.minDistance = 10.0;
-// controls.maxDistance = 20.0;
-// controls.update();
+controls.maxPolarAngle = Math.PI * 0.495;
+//controls.target.set( 0, 2, 0 );
+controls.minDistance = 10.0;
+controls.maxDistance = 20.0;
+controls.update();
 
 
 
@@ -1056,7 +1056,7 @@ function animate() {
  world.fixedStep();
  CannonD.update();
  controls.update();
-//camera.lookAt(meshCamera.position)
+camera.lookAt(meshCamera.position)
 mesh.position.copy(chassisBody.position)
 mesh.quaternion.copy(chassisBody.quaternion)
 
