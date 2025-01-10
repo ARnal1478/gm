@@ -381,7 +381,7 @@ const move3=document.getElementById('m3');
 const move4=document.getElementById('m4');   
 const move5=document.getElementById('m5');   
 
-move1.addEventListener('click',function(){
+move1.addEventListener('touchstart',function(){
   
   const maxForce = 300
   
@@ -389,6 +389,17 @@ move1.addEventListener('click',function(){
   vehicle.applyEngineForce(-maxForce, 2)
   vehicle.applyEngineForce(-maxForce, 3)
 });        
+
+move1.addEventListener('touchend',function(){
+  
+  const maxForce = 0
+  
+  
+  vehicle.applyEngineForce(-maxForce, 2)
+  vehicle.applyEngineForce(-maxForce, 3)
+});   
+
+
 
 
 move2.addEventListener('touchstart',function(){
