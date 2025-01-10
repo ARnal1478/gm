@@ -121,7 +121,7 @@ wheelBodyA1 = new CANNON.Body({ mass: 50 })
 wheelBodyA1.addShape(wheelA);
 vehicle1.addWheel({
   body:wheelBodyA1,
-  position:new CANNON.Vec3(0,0.5,0),
+  position:new CANNON.Vec3(0,1.5,0),
   axis: new CANNON.Vec3(0,0,1),
   direction:down
 })
