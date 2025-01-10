@@ -453,7 +453,11 @@ move5.addEventListener('touchstart', function() {
   vehicle.applyEngineForce(maxForce1, 2)
   vehicle.applyEngineForce(maxForce1, 3)
 })
-
+move5.addEventListener('touchend', function() {
+  const maxForce1 = 0
+  vehicle.applyEngineForce(maxForce1, 2)
+  vehicle.applyEngineForce(maxForce1, 3)
+})
  
 
 
