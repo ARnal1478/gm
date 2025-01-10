@@ -1048,11 +1048,14 @@ meshCamera.add(camera)
 renderer.setClearColor("lightcyan");
  const controls = new OrbitControls( camera, renderer.domElement );
 controls.maxPolarAngle = Math.PI * 0.495;
-//controls.target.set( 0, 2, 0 );
-controls.minDistance = 10.0;
-controls.maxDistance = 20.0;
-controls.update();
-
+controls.target.set(0, 0, 0);
+controls.rotateSpeed = 1.5;
+controls.zoomSpeed = 1.0;
+controls.enableDamping = true;
+controls.enablePan = false;
+controls.dampingFactor = 0.2;
+controls.minDistance = 10;
+controls.maxDistance = 30;
 
 
 
