@@ -106,7 +106,7 @@ const vehicle1 = new CANNON.RigidVehicle({
 const mass =1;
 const mass1 = 0;
 const axixWhidth = 5;
-const wheelA =new CANNON.Box(new CANNON.Vec3(3,0.5,1));
+const wheelA =new CANNON.Box(new CANNON.Vec3(1,0.5,1));
 const wheelB =new CANNON.Sphere(0.5);
 const wheelMaterial1 = new CANNON.Material('ground');
 const down = new CANNON.Vec3(0,0,0);
@@ -122,7 +122,7 @@ wheelBodyA1.addShape(wheelA);
 vehicle1.addWheel({
   body:wheelBodyA1,
   position:new CANNON.Vec3(0,0.5,0),
-  axis: new CANNON.Vec3(1,1,1),
+  axis: new CANNON.Vec3(0,0,1),
   direction:down
 })
 
