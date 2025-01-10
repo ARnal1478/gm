@@ -119,6 +119,7 @@ wheelBodyA1 = new CANNON.Body({
 });
 wheelBodyA1 = new CANNON.Body({ mass: 50 })
 wheelBodyA1.addShape(wheelA);
+wheelBodyA1.quaternion.setFromEuler(0,0/*3.15*/,0.3)
 vehicle1.addWheel({
   body:wheelBodyA1,
   position:new CANNON.Vec3(0,1.5,0),
