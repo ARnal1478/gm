@@ -374,74 +374,74 @@ mesh4.quaternion.copy(transform3.quaternion)
 })
 //______________________________________
 
-// const move1=document.getElementById('m1');
-// const move2=document.getElementById('m2');     
-// const move3=document.getElementById('m3');     
+const move1=document.getElementById('m1');
+const move2=document.getElementById('m2');     
+const move3=document.getElementById('m3');     
 
-// const move4=document.getElementById('m4');   
-// const move5=document.getElementById('m5');   
+const move4=document.getElementById('m4');   
+const move5=document.getElementById('m5');   
 
-// move1.addEventListener('click',function(){
+move1.addEventListener('click',function(){
   
-//   const maxForce = 300
-  
-  
-//   vehicle.applyEngineForce(-maxForce, 2)
-//   vehicle.applyEngineForce(-maxForce, 3)
-// });        
-
-
-// move2.addEventListener('touchstart',function(){
-// const maxSteerVal = 0.5  
-// vehicle.setSteeringValue(maxSteerVal, 0)
-// vehicle.setSteeringValue(maxSteerVal, 1)
-// });
-// move2.addEventListener('touchend',function(){
-//   const maxSteerVal1 = 0
-//   vehicle.setSteeringValue(maxSteerVal1, 0)
-//   vehicle.setSteeringValue(maxSteerVal1, 1)
+  const maxForce = 300
   
   
-// });
+  vehicle.applyEngineForce(-maxForce, 2)
+  vehicle.applyEngineForce(-maxForce, 3)
+});        
 
 
-// move3.addEventListener('touchstart', function() {
-//   const maxSteerVal = 0.5
-//   vehicle.setSteeringValue(-maxSteerVal, 0)
-//   vehicle.setSteeringValue(-maxSteerVal, 1)
-// });
+move2.addEventListener('touchstart',function(){
+const maxSteerVal = 0.5  
+vehicle.setSteeringValue(maxSteerVal, 0)
+vehicle.setSteeringValue(maxSteerVal, 1)
+});
+move2.addEventListener('touchend',function(){
+  const maxSteerVal1 = 0
+  vehicle.setSteeringValue(maxSteerVal1, 0)
+  vehicle.setSteeringValue(maxSteerVal1, 1)
+  
+  
+});
 
-// move3.addEventListener('touchend', function() {
-//   const maxSteerVal2 = 0
-//   vehicle.setSteeringValue(maxSteerVal2, 0)
-//   vehicle.setSteeringValue(maxSteerVal2, 1)
-// });
+
+move3.addEventListener('touchstart', function() {
+  const maxSteerVal = 0.5
+  vehicle.setSteeringValue(-maxSteerVal, 0)
+  vehicle.setSteeringValue(-maxSteerVal, 1)
+});
+
+move3.addEventListener('touchend', function() {
+  const maxSteerVal2 = 0
+  vehicle.setSteeringValue(maxSteerVal2, 0)
+  vehicle.setSteeringValue(maxSteerVal2, 1)
+});
 
 
 
-// move4.addEventListener('touchstart', function() {
-//   const brakeForce =13
-//     vehicle.setBrake(brakeForce, 0)
-//     vehicle.setBrake(brakeForce, 1)
-//     vehicle.setBrake(brakeForce, 2)
-//     vehicle.setBrake(brakeForce, 3)
+move4.addEventListener('touchstart', function() {
+  const brakeForce =13
+    vehicle.setBrake(brakeForce, 0)
+    vehicle.setBrake(brakeForce, 1)
+    vehicle.setBrake(brakeForce, 2)
+    vehicle.setBrake(brakeForce, 3)
     
     
     
-//   });
+  });
   
-// move4.addEventListener('touchend',function(){
-//   vehicle.setBrake(0, 0)
-//   vehicle.setBrake(0, 1)
-//   vehicle.setBrake(0, 2)
-//   vehicle.setBrake(0, 3)
-// })
+move4.addEventListener('touchend',function(){
+  vehicle.setBrake(0, 0)
+  vehicle.setBrake(0, 1)
+  vehicle.setBrake(0, 2)
+  vehicle.setBrake(0, 3)
+})
 
-// move5.addEventListener('touchstart', function() {
-//   const maxForce1 = 100
-//   vehicle.applyEngineForce(maxForce1, 2)
-//   vehicle.applyEngineForce(maxForce1, 3)
-// })
+move5.addEventListener('touchstart', function() {
+  const maxForce1 = 100
+  vehicle.applyEngineForce(maxForce1, 2)
+  vehicle.applyEngineForce(maxForce1, 3)
+})
 
  
 
