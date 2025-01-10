@@ -109,7 +109,7 @@ const axixWhidth = 5;
 const wheelA =new CANNON.Box(new CANNON.Vec3(3,0.5,1));
 const wheelB =new CANNON.Sphere(0.5);
 const wheelMaterial1 = new CANNON.Material('ground');
-const down = new CANNON.Vec3(0,-0.01,0);
+const down = new CANNON.Vec3(0,0,0);
 
 
 let wheelBodyA1,wheelBodyA2,wheelBodyA3;
