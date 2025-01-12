@@ -123,7 +123,7 @@ wheelBodyA1.addShape(wheelA);
 vehicle1.addWheel({
   body:wheelBodyA1,
   position:new CANNON.Vec3(0,1.5,0),
-  axis: new CANNON.Vec3(0,0,1),
+  axis: new CANNON.Vec3(0,1,0),
   direction:down
 })
 
@@ -1046,6 +1046,7 @@ fullscreenIcon.addEventListener('pointerup', () => {
 camera.position.set(0,0,100);
 
 meshCamera.add(camera)
+meshCamera.visible = false;
 renderer.setClearColor("lightcyan");
  const controls = new OrbitControls( camera, renderer.domElement );
 controls.maxPolarAngle = Math.PI * 0.495;
